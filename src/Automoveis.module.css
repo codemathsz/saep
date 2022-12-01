@@ -1,0 +1,63 @@
+.container{
+    width: 50%;
+    height: auto;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: solid 1px #000;
+    
+}
+
+.containerHeader{
+    width: 100%;
+    height: 1.5rem;
+    background-color: #CDCDCD;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+thead{
+    width: 100%;
+    font-size: 24px;
+    color: #7814FF;
+    font-weight: bold;
+}
+
+
+.contentInfoVeiculo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contentInfoVeiculo li{
+    color: #7814FF;
+
+}
+
+.contentInfoVeiculo td > button{
+    width: 8rem;
+    height: 2rem;
+    background-color: #7814FF;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}

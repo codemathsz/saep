@@ -1,0 +1,75 @@
+.container{
+    width: 30%;
+    height: auto;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: solid 1px #000;
+    
+}
+
+.containerHeader{
+    width: 100%;
+    height: 1.5rem;
+    background-color: #CDCDCD;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.infoVeiculo{
+
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infoVeiculo p{
+    font-size: 1.5rem;
+    color: #7814FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.contentClientes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clientes{
+    width: 40%;
+    
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+
+    margin: 1rem 0;
+    width: 40%;
+    height: 3rem;
+    background-color: #7814FF;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.button button:hover{
+    opacity: .9;
+}
